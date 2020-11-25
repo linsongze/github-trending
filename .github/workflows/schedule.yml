@@ -6,7 +6,8 @@ name: Daily Github-Trending
 on:
   schedule:
     - cron: "0 2 * * *"
-
+  watch:
+    types: started
 jobs:
   build:
 
